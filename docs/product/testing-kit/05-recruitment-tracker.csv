@@ -1,0 +1,11 @@
+participant_id,segment,first_time_renter,newcomer,prior_dispute,low_tech_confidence,scenario_id,contact_channel,status,scheduled_datetime,device,browser,moderator,observation_consent,recording_consent,incentive_status,accessibility_needs,notes
+P-001,Student,yes,no,no,no,UT-01,,Invited,,,,,,,,,
+P-002,Newcomer,no,yes,no,yes,UT-02,,Invited,,,,,,,,,
+P-003,Renter with dispute,no,no,yes,no,UT-03,,Invited,,,,,,,,,
+P-004,Low confidence renter,yes,no,no,yes,UT-04,,Invited,,,,,,,,,
+P-005,Student,no,no,no,no,UT-05,,Invited,,,,,,,,,
+P-006,Community partner,no,no,yes,no,UT-02,,Backlog,,,,,,,,,
+P-007,Newcomer,no,yes,no,no,UT-01,,Backlog,,,,,,,,,
+P-008,Low confidence renter,no,no,no,yes,UT-04,,Backlog,,,,,,,,,
+P-009,Renter with dispute,no,no,yes,yes,UT-03,,Backlog,,,,,,,,,
+P-010,Student,yes,no,no,yes,UT-05,,Backlog,,,,,,,,,

@@ -1,0 +1,12 @@
+.git
+.pytest_cache
+.venv
+__pycache__
+*.pyc
+htmlcov
+.coverage
+.env
+frontend/node_modules
+frontend/.next
+frontend/dist
+frontend/.wrangler
