@@ -102,8 +102,10 @@ The root `netlify.toml` points Netlify at this `frontend/` directory:
 
 - Base directory: `frontend`
 - Build command: `npm run build`
-- Publish directory: `.next`
+- Publish directory: `out`
 - Node version: `20`
+
+The frontend uses Next static export (`output: "export"`) so Netlify serves a plain static artifact with `out/index.html`.
 
 Set this Netlify environment variable before production deploys:
 
@@ -111,4 +113,4 @@ Set this Netlify environment variable before production deploys:
 NEXT_PUBLIC_API_BASE_URL=https://your-backend-domain.example/api/v1
 ```
 
-Netlify supports modern Next.js through its OpenNext adapter, so this project does not pin `@netlify/plugin-nextjs`.
+No Netlify Next.js runtime plugin is required for the current static frontend.

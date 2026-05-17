@@ -5,7 +5,11 @@ import { SiteHeader } from "./components/site-header";
 
 export const metadata = {
   title: "Lexi | Understand what you are signing",
-  description: "Legal document understanding in calm, plain language"
+  description: "Legal document understanding in calm, plain language",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.svg"
+  }
 };
 
 export default function RootLayout({ children }) {
